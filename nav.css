@@ -1,0 +1,35 @@
+.menu-btn {
+   color: white;
+   padding: 12px;
+   font-size: 18px;
+   font-family: verdana;
+   border: none;
+}
+.dropdown-menu {
+   position: relative;
+   display: inline-block;
+}
+.menu-content {
+   display: none;
+   position: absolute;
+   min-width: 160px;
+   z-index: 1;
+}
+
+.links,.links-hidden{
+   display: inline-block;
+   color: black;
+   padding: 12px;
+   text-decoration: none;
+   font-family: verdana;
+   font-size: 18px;
+}
+.links-hidden{
+   display: block;
+}
+.links{
+   display: inline-block;
+}
+.dropdown-menu:hover .menu-content {
+   display: block;
+}
