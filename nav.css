@@ -1,5 +1,4 @@
 .menu-btn {
-   color: white;
    padding: 12px;
    font-size: 18px;
    font-family: verdana;
@@ -18,7 +17,7 @@
 
 .links,.links-hidden{
    display: inline-block;
-   color: black;
+   color: white;
    padding: 12px;
    text-decoration: none;
    font-family: verdana;
